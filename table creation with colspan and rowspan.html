@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Table creation</title>
+    <style>
+        .i{
+            color:rgb(34, 178, 60);
+        }
+        td{
+            color: rgb(255, 0, 0);
+        }
+        
+    </style>
+</head>
+<body>
+    <table  border="1" cellpadding="5">
+    <thead>
+        <TR >
+            <th rowspan="2" class="i"> NAME</th>
+        <th rowspan="2" class="i">DESIGNATION</th>
+        <th colspan="3" class="i">CTC</th>
+        </TR>
+        <tr>
+            <th class="i">SAL</th>
+            <th class="i">COMM</th>
+            <th class="i">INSEN</th>
+        </tr>
+        
+
+    </thead>
+    <tbody>
+        <tr>
+            <td>SHAKTHI</td>
+            <td>MANAGER</td>
+            <td>70K</td>
+            <td>15K</td>
+            <td>25K</td>
+        </tr>
+        <tr>
+            <td>MALAR</td>
+            <td rowspan="2"> SOFTWARE ENGINEER</td>
+            <td>75K</td>
+            <td>10K</td>
+            <td rowspan="3">35K</td>
+        </tr>
+        <tr>
+            <td>VIJIY</td>
+            <td rowspan="2">100K</td>
+            <td>15K</td>
+        </tr>
+        <TR>
+            <td>AJITH</td>
+        <td>SYSTEM ARCHITECTURE</td>
+        <td>17k</td>
+        </TR>
+       
+    </tbody>
+    <tfoot>
+            <td colspan="5"> NOTE: Salary Denotes per month </td>
+    </tfoot>
+</table>
+    
+</body>
+</html>
